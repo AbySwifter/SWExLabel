@@ -1,0 +1,22 @@
+{
+  "name": "SWExLabel",
+  "version": "0.1.0",
+  "summary": "A short description of SWExLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wyx96553@163.com/SWExLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wyx96553@163.com": "wyx96553@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wyx96553@163.com/SWExLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWExLabel/Classes/**/*"
+}

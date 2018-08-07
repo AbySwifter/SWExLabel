@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWExLabel_Example' do
+  pod 'SWExLabel', :path => '../'
+
+  target 'SWExLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

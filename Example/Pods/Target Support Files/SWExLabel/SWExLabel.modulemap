@@ -1,0 +1,6 @@
+framework module SWExLabel {
+  umbrella header "SWExLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

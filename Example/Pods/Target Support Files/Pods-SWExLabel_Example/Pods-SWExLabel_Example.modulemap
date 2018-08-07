@@ -1,0 +1,6 @@
+framework module Pods_SWExLabel_Example {
+  umbrella header "Pods-SWExLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

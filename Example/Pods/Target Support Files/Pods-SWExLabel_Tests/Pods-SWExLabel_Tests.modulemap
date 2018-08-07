@@ -1,0 +1,6 @@
+framework module Pods_SWExLabel_Tests {
+  umbrella header "Pods-SWExLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
