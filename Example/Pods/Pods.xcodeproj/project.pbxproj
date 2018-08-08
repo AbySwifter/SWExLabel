@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		479CAFF69F4D7A10287251C3A8561D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4B43041B9C08A1A427BBCAAF6E08E827 /* SWExLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8FC0464D85EF2B80BCC7DB89A893F0 /* SWExLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269A5B66E1454C243E251CD8B9532640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		41A0747DE41CF1089BBC2F4843D9270A /* SWExLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D71CA0E1602E049058040F7BC52936 /* SWExLabel-dummy.m */; };
+		479CAFF69F4D7A10287251C3A8561D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4B43041B9C08A1A427BBCAAF6E08E827 /* SWExLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B59D628F8495C90ECC970F328D52D7 /* SWExLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADE6A914F80623D4A513CFD125BD4F0 /* SWExpressionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE06306E1BD0FA9B161C6E257D18695 /* SWExpressionManager.swift */; };
+		5B0F339826AD89047820F9444B52F093 /* String+SWExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD362D49DDB2489DD12E32EAF0924C6 /* String+SWExpression.swift */; };
 		72A1B91554F96C2845F7FFEC9B517F60 /* Pods-SWExLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8149AB4A8EEEAFA3BBAFE4A754DF2BDA /* Pods-SWExLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D5455B78F350E49FCEEF485F8B3FA43 /* Pods-SWExLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1481AD71490828350F2EAFF3FD6C454F /* Pods-SWExLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE41BDCA3CB374A8023A659ABCE5CEA2 /* SWExLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5516A74C6F7A957B9671C41B6E66D486 /* SWExLabel-dummy.m */; };
+		856ECB095F45C09415858D6531F0C38B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9A047D9FADC73F635D69A5506C47BD8D /* NSAttributedString+SWExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D8018A42C7A34BEC761F6D35B96236 /* NSAttributedString+SWExpression.swift */; };
+		AD5FB6B0AE1D8C660F4B0373B88B5105 /* SWExpresion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D22DA2329DD7DAA65232F5108D432E /* SWExpresion.swift */; };
 		AF78D7F16BDB3BBE9709E2FA3A456F0E /* Pods-SWExLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1883574D7F6EC3B01921AF4D3EDF6C /* Pods-SWExLabel_Tests-dummy.m */; };
 		BDB2368776E9D7DD28774D38B2854DC3 /* Pods-SWExLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B6CDC1658AB18174C659977BA01A8D /* Pods-SWExLabel_Example-dummy.m */; };
-		BF77332C064EBC026BBE713B6D89FDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C7A5B784F0781B047F8933CDAA28A20F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D411E75D04BC7B9F6DBB82E1D51521 /* ReplaceMe.swift */; };
-		E2147F8831CAEB468174BFCE01DE4D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF77332C064EBC026BBE713B6D89FDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C6F0DB6C08DB383DAD3D18543CC6E8A8 /* SWTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AA99EE4F283B7C3784F5EA5E1FF4F /* SWTextAttachment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,37 +44,42 @@
 /* Begin PBXFileReference section */
 		0077293ABFCA15C518B44652ACFAA511 /* Pods-SWExLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWExLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		00B18EBFDC330B5A4A210058675779D0 /* Pods-SWExLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWExLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0147DAC9E9B5C225BB0112B34B9D0452 /* SWExLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWExLabel-prefix.pch"; sourceTree = "<group>"; };
+		0BD362D49DDB2489DD12E32EAF0924C6 /* String+SWExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+SWExpression.swift"; sourceTree = "<group>"; };
 		1481AD71490828350F2EAFF3FD6C454F /* Pods-SWExLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWExLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		1709D69978B319282C8754AAF0BC7CC3 /* SWExLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWExLabel.xcconfig; sourceTree = "<group>"; };
 		1923C0EAA80FAD0F1B708689B8ABAD50 /* Pods-SWExLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWExLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B5F1E1D79F0D29DC27A45EED1BCE9CD /* Pods-SWExLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWExLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		239738A2CBC36B5DC21683B62BA0FA9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25BC77DA68F7FCFF6F0CB7A16F95B474 /* SWExLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SWExLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B4A73688D3B5352C7AED969ACB54725 /* Pods-SWExLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWExLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		31768750537D53EC8D90DD75173AAB99 /* Pods-SWExLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWExLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3247DCBAD21196E018B1237732B50EE4 /* Pods-SWExLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWExLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		32D22DA2329DD7DAA65232F5108D432E /* SWExpresion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWExpresion.swift; sourceTree = "<group>"; };
 		36BAA78535834F648CC758403534FB89 /* Pods-SWExLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWExLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		38D71CA0E1602E049058040F7BC52936 /* SWExLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWExLabel-dummy.m"; sourceTree = "<group>"; };
 		3F1883574D7F6EC3B01921AF4D3EDF6C /* Pods-SWExLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWExLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		47D411E75D04BC7B9F6DBB82E1D51521 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SWExLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		47A0BE411CCFECA67581007307941CBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		49DAD48B0C353C39F638B106368C26F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5516A74C6F7A957B9671C41B6E66D486 /* SWExLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWExLabel-dummy.m"; sourceTree = "<group>"; };
+		4E4DEE88D106BB35AA48ED63DDF3D5FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		558F8042E79D8A1BFE96F859B17FA47F /* SWExLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWExLabel-prefix.pch"; sourceTree = "<group>"; };
 		56B6CDC1658AB18174C659977BA01A8D /* Pods-SWExLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWExLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C0DFCDA2588BF7468FB81A762C33550 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73A751F2ED0845480A751EF8856B3662 /* Pods_SWExLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWExLabel_Tests.framework; path = "Pods-SWExLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE06306E1BD0FA9B161C6E257D18695 /* SWExpressionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWExpressionManager.swift; sourceTree = "<group>"; };
 		8149AB4A8EEEAFA3BBAFE4A754DF2BDA /* Pods-SWExLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWExLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		840595F87B0D6B1C3F4AF5AFDB12EA02 /* Pods-SWExLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SWExLabel_Example.modulemap"; sourceTree = "<group>"; };
 		86B642C5BBD579D35C9C3886685F5FE7 /* Pods-SWExLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWExLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0A25532966255300157658FC1BFDAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8AA99EE4F283B7C3784F5EA5E1FF4F /* SWTextAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWTextAttachment.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9766C047EE8B310AD235EFD6A7B24A75 /* Pods-SWExLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWExLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		983ADEC7D490A8028A31E334F9E6E3DD /* SWExLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWExLabel.xcconfig; sourceTree = "<group>"; };
-		9C70630DEDD751FC79A7558CAE3A9370 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AB8FC0464D85EF2B80BCC7DB89A893F0 /* SWExLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWExLabel-umbrella.h"; sourceTree = "<group>"; };
-		AC6BCA059416C5093E81FB1FD36439CD /* SWExLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWExLabel.modulemap; sourceTree = "<group>"; };
 		AF99FCC6EBAB2E08944F69DC3966B1BC /* Pods-SWExLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SWExLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7FEEEE6D2B115ABABB0A0E8450269C0 /* SWExLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWExLabel.framework; path = SWExLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81584935CAF46F0A3FD2E0336B1CAF8 /* Pods_SWExLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWExLabel_Example.framework; path = "Pods-SWExLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF396B8F5A723D6F7C05409C9276D0 /* SWExLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWExLabel.modulemap; sourceTree = "<group>"; };
+		C7B59D628F8495C90ECC970F328D52D7 /* SWExLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWExLabel-umbrella.h"; sourceTree = "<group>"; };
 		D2EE5F5CE91CB8CB9AB1D6D4C9BF7A78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5FC265E3DB0586725D7CC7275544C69 /* SWExLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SWExLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3D8018A42C7A34BEC761F6D35B96236 /* NSAttributedString+SWExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+SWExpression.swift"; sourceTree = "<group>"; };
 		F6744833D41A2F9AA747791278F82AAF /* Pods-SWExLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWExLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FC2E277563EDA3F1975018F0843D0D11 /* Pods-SWExLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWExLabel_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,14 +93,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DEF5D6BA93E12F48810E617BF6CD14C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2147F8831CAEB468174BFCE01DE4D22 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4AB68562DFC054C30B1605837C75FA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,18 +101,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C801B7E30AEF7AE4FCB0F6515DFB85EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269A5B66E1454C243E251CD8B9532640 /* Foundation.framework in Frameworks */,
+				856ECB095F45C09415858D6531F0C38B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06FD43F4E459FE19F5AA973004FA3C7E /* SWExLabel */ = {
+		04281D6160105D926D50F21C8460E0D5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				47D411E75D04BC7B9F6DBB82E1D51521 /* ReplaceMe.swift */,
-				72D15A50BCC5C2BD209C1424CE0F79B6 /* Pod */,
-				45C6E650BC489684F3A2EFEC78FDDDB4 /* Support Files */,
+				E3D8018A42C7A34BEC761F6D35B96236 /* NSAttributedString+SWExpression.swift */,
+				0BD362D49DDB2489DD12E32EAF0924C6 /* String+SWExpression.swift */,
 			);
-			name = SWExLabel;
-			path = ../..;
+			name = Extension;
+			path = SWExLabel/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		24D3DB015AD219E4DAEFA7D90FBE80A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7265C70B811E85FC0E775728A7BAE426 /* SWExLabel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		290CAAD08030B81F3C22097997E12619 /* Products */ = {
@@ -123,18 +141,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45C6E650BC489684F3A2EFEC78FDDDB4 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6C0DFCDA2588BF7468FB81A762C33550 /* Info.plist */,
-				AC6BCA059416C5093E81FB1FD36439CD /* SWExLabel.modulemap */,
-				983ADEC7D490A8028A31E334F9E6E3DD /* SWExLabel.xcconfig */,
-				5516A74C6F7A957B9671C41B6E66D486 /* SWExLabel-dummy.m */,
-				0147DAC9E9B5C225BB0112B34B9D0452 /* SWExLabel-prefix.pch */,
-				AB8FC0464D85EF2B80BCC7DB89A893F0 /* SWExLabel-umbrella.h */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SWExLabel";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		46376C7E00D334E04F9C368CBEFAEBB0 /* Pods-SWExLabel_Example */ = {
@@ -155,14 +176,41 @@
 			path = "Target Support Files/Pods-SWExLabel_Example";
 			sourceTree = "<group>";
 		};
-		72D15A50BCC5C2BD209C1424CE0F79B6 /* Pod */ = {
+		62090FE6BC9770F1A1D1986BBFAB8F25 /* Expression */ = {
 			isa = PBXGroup;
 			children = (
-				239738A2CBC36B5DC21683B62BA0FA9C /* LICENSE */,
-				9C70630DEDD751FC79A7558CAE3A9370 /* README.md */,
-				D5FC265E3DB0586725D7CC7275544C69 /* SWExLabel.podspec */,
+				32D22DA2329DD7DAA65232F5108D432E /* SWExpresion.swift */,
+				7DE06306E1BD0FA9B161C6E257D18695 /* SWExpressionManager.swift */,
+				8F8AA99EE4F283B7C3784F5EA5E1FF4F /* SWTextAttachment.swift */,
 			);
-			name = Pod;
+			name = Expression;
+			path = SWExLabel/Classes/Expression;
+			sourceTree = "<group>";
+		};
+		7265C70B811E85FC0E775728A7BAE426 /* SWExLabel */ = {
+			isa = PBXGroup;
+			children = (
+				62090FE6BC9770F1A1D1986BBFAB8F25 /* Expression */,
+				04281D6160105D926D50F21C8460E0D5 /* Extension */,
+				D8A29AFCBE74D919E046E5A47FD65F01 /* Pod */,
+				77C48A6CD1EF6D463B6CC4FE4D5B5BB6 /* Support Files */,
+			);
+			name = SWExLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77C48A6CD1EF6D463B6CC4FE4D5B5BB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C0A25532966255300157658FC1BFDAB /* Info.plist */,
+				C4AF396B8F5A723D6F7C05409C9276D0 /* SWExLabel.modulemap */,
+				1709D69978B319282C8754AAF0BC7CC3 /* SWExLabel.xcconfig */,
+				38D71CA0E1602E049058040F7BC52936 /* SWExLabel-dummy.m */,
+				558F8042E79D8A1BFE96F859B17FA47F /* SWExLabel-prefix.pch */,
+				C7B59D628F8495C90ECC970F328D52D7 /* SWExLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SWExLabel";
 			sourceTree = "<group>";
 		};
 		79EE814D7FFC0F1889D99F28E4A46E77 /* Targets Support Files */ = {
@@ -178,19 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8C1744BA94B25AE81DD29B7A0CD52B44 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				24D3DB015AD219E4DAEFA7D90FBE80A5 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				290CAAD08030B81F3C22097997E12619 /* Products */,
 				79EE814D7FFC0F1889D99F28E4A46E77 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8C1744BA94B25AE81DD29B7A0CD52B44 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06FD43F4E459FE19F5AA973004FA3C7E /* SWExLabel */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8FBA3717F244CC2E740C181B1B62869E /* Pods-SWExLabel_Tests */ = {
@@ -211,20 +251,14 @@
 			path = "Target Support Files/Pods-SWExLabel_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D8A29AFCBE74D919E046E5A47FD65F01 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				4E4DEE88D106BB35AA48ED63DDF3D5FE /* LICENSE */,
+				47A0BE411CCFECA67581007307941CBB /* README.md */,
+				25BC77DA68F7FCFF6F0CB7A16F95B474 /* SWExLabel.podspec */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +313,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAE7CCBC511B9CF8A172B1F5B9D9B836 /* Build configuration list for PBXNativeTarget "SWExLabel" */;
 			buildPhases = (
-				C30912C8CD072AB5D3014BF0B0CDD1E3 /* Sources */,
-				9DEF5D6BA93E12F48810E617BF6CD14C /* Frameworks */,
+				1481705639B2424F047C5ABACA9904FB /* Sources */,
+				C801B7E30AEF7AE4FCB0F6515DFB85EF /* Frameworks */,
 				C838DF887A8FC2FC928E04A974E58839 /* Headers */,
 			);
 			buildRules = (
@@ -339,20 +373,24 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1481705639B2424F047C5ABACA9904FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A047D9FADC73F635D69A5506C47BD8D /* NSAttributedString+SWExpression.swift in Sources */,
+				5B0F339826AD89047820F9444B52F093 /* String+SWExpression.swift in Sources */,
+				41A0747DE41CF1089BBC2F4843D9270A /* SWExLabel-dummy.m in Sources */,
+				AD5FB6B0AE1D8C660F4B0373B88B5105 /* SWExpresion.swift in Sources */,
+				5ADE6A914F80623D4A513CFD125BD4F0 /* SWExpressionManager.swift in Sources */,
+				C6F0DB6C08DB383DAD3D18543CC6E8A8 /* SWTextAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63D6B94B73D9A26968360CAAECE2019B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDB2368776E9D7DD28774D38B2854DC3 /* Pods-SWExLabel_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C30912C8CD072AB5D3014BF0B0CDD1E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7A5B784F0781B047F8933CDAA28A20F /* ReplaceMe.swift in Sources */,
-				AE41BDCA3CB374A8023A659ABCE5CEA2 /* SWExLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +420,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A918063950BAAC484E9FF16A8CF7FB8 /* Release */ = {
+		00AF05696B13D0F759E01A219194BD33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9766C047EE8B310AD235EFD6A7B24A75 /* Pods-SWExLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example.modulemap";
@@ -417,11 +456,11 @@
 			};
 			name = Release;
 		};
-		0AC2C6632EFCC65ADC4FCEB66A814687 /* Debug */ = {
+		15BA4172561AC522063388626EB8C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31768750537D53EC8D90DD75173AAB99 /* Pods-SWExLabel_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1709D69978B319282C8754AAF0BC7CC3 /* SWExLabel.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -431,60 +470,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SWExLabel/SWExLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWExLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SWExLabel/SWExLabel.modulemap";
+				PRODUCT_MODULE_NAME = SWExLabel;
+				PRODUCT_NAME = SWExLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5A03771A9E6EEEA697A47AC3EC7E7D4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B18EBFDC330B5A4A210058675779D0 /* Pods-SWExLabel_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -537,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -547,75 +552,7 @@
 			};
 			name = Debug;
 		};
-		8F8B9BD96CEAAB80B86B4ACC8A06AC7D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86B642C5BBD579D35C9C3886685F5FE7 /* Pods-SWExLabel_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B25D6758BCA442088D0B70FA57D39E64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 983ADEC7D490A8028A31E334F9E6E3DD /* SWExLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SWExLabel/SWExLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWExLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWExLabel/SWExLabel.modulemap";
-				PRODUCT_MODULE_NAME = SWExLabel;
-				PRODUCT_NAME = SWExLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -665,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -673,10 +610,11 @@
 			};
 			name = Release;
 		};
-		F8ECBDC30CD952B222DEE76304219F81 /* Debug */ = {
+		78023177B069615A6F8844ABED6B1DDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 983ADEC7D490A8028A31E334F9E6E3DD /* SWExLabel.xcconfig */;
+			baseConfigurationReference = 1709D69978B319282C8754AAF0BC7CC3 /* SWExLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,7 +627,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SWExLabel/SWExLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SWExLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SWExLabel/SWExLabel.modulemap";
 				PRODUCT_MODULE_NAME = SWExLabel;
@@ -697,8 +635,114 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A186EBD8F4130C44125BF97C7A768552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B18EBFDC330B5A4A210058675779D0 /* Pods-SWExLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AECEBB451CE53D7E151E4A756CBE98A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B642C5BBD579D35C9C3886685F5FE7 /* Pods-SWExLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA624AC2526BAA018E7267BA55AA3750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31768750537D53EC8D90DD75173AAB99 /* Pods-SWExLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SWExLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -711,8 +755,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +764,8 @@
 		C812EF676CDDC14001C43C0943E03BCE /* Build configuration list for PBXNativeTarget "Pods-SWExLabel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AC2C6632EFCC65ADC4FCEB66A814687 /* Debug */,
-				5A03771A9E6EEEA697A47AC3EC7E7D4B /* Release */,
+				FA624AC2526BAA018E7267BA55AA3750 /* Debug */,
+				A186EBD8F4130C44125BF97C7A768552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,8 +773,8 @@
 		D2C5A3B45C53CBF59DDF1A90375C4266 /* Build configuration list for PBXNativeTarget "Pods-SWExLabel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F8B9BD96CEAAB80B86B4ACC8A06AC7D /* Debug */,
-				0A918063950BAAC484E9FF16A8CF7FB8 /* Release */,
+				AECEBB451CE53D7E151E4A756CBE98A8 /* Debug */,
+				00AF05696B13D0F759E01A219194BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,8 +782,8 @@
 		DAE7CCBC511B9CF8A172B1F5B9D9B836 /* Build configuration list for PBXNativeTarget "SWExLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8ECBDC30CD952B222DEE76304219F81 /* Debug */,
-				B25D6758BCA442088D0B70FA57D39E64 /* Release */,
+				15BA4172561AC522063388626EB8C734 /* Debug */,
+				78023177B069615A6F8844ABED6B1DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

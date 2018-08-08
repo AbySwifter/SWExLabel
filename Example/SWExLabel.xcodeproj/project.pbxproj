@@ -15,6 +15,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		DD5E5CBE211AC30200E6E4F2 /* ClippedExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD5E5CBC211AC30200E6E4F2 /* ClippedExpression.bundle */; };
+		DD5E5CBF211AC30200E6E4F2 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD5E5CBD211AC30200E6E4F2 /* Expression.plist */; };
+		DD5E5CC1211AC8B900E6E4F2 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5E5CC0211AC8B900E6E4F2 /* MainTableViewCell.swift */; };
+		DD5E5CC5211ACEAE00E6E4F2 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5E5CC4211ACEAE00E6E4F2 /* SimpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		8245814C31B6368761F52BDC /* Pods-SWExLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWExLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A6DD93899A77D1C5C630355D /* Pods-SWExLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWExLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWExLabel_Tests/Pods-SWExLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D06DD71597186B1FB3D3B752 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD5E5CBC211AC30200E6E4F2 /* ClippedExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClippedExpression.bundle; sourceTree = "<group>"; };
+		DD5E5CBD211AC30200E6E4F2 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		DD5E5CC0211AC8B900E6E4F2 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		DD5E5CC4211ACEAE00E6E4F2 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
 		E053838A790635C8FCD24B1C /* SWExLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWExLabel.podspec; path = ../SWExLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E82FE453A39357715D1797CB /* Pods_SWExLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWExLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A15C53E5CA3942623313ED /* Pods-SWExLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWExLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,8 +121,12 @@
 		607FACD21AFB9204008FA782 /* Example for SWExLabel */ = {
 			isa = PBXGroup;
 			children = (
+				DD5E5CC3211ACE8400E6E4F2 /* exampleController */,
+				DD5E5CBC211AC30200E6E4F2 /* ClippedExpression.bundle */,
+				DD5E5CBD211AC30200E6E4F2 /* Expression.plist */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				DD5E5CC0211AC8B900E6E4F2 /* MainTableViewCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -157,6 +169,14 @@
 				7A984DA7CF2CC992BBBAEFFD /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		DD5E5CC3211ACE8400E6E4F2 /* exampleController */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E5CC4211ACEAE00E6E4F2 /* SimpleViewController.swift */,
+			);
+			path = exampleController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5E5CBF211AC30200E6E4F2 /* Expression.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				DD5E5CBE211AC30200E6E4F2 /* ClippedExpression.bundle in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -323,6 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DD5E5CC1211AC8B900E6E4F2 /* MainTableViewCell.swift in Sources */,
+				DD5E5CC5211ACEAE00E6E4F2 /* SimpleViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -470,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWExLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWExLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
