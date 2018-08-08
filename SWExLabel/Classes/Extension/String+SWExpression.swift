@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public extension String {
+    func expressionAttributedString(expression: SWExpression) -> NSAttributedString {
+        return SWExpressionManager.expressionAttributedString(string: self, expression: expression)
+    }
+}
