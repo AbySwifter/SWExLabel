@@ -307,7 +307,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SWExLabel/SWExLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -316,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWExLabel_Example/Pods-SWExLabel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE34FE3B0BDF0467C24CE913 /* [CP] Check Pods Manifest.lock */ = {

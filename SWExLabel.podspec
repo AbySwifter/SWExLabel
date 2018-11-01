@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                     富文本表情处理框架
                        DESC
 
-  s.homepage         = 'https://gitee.com/momo96553'
+  s.homepage         = 'https://gitee.com/momo96553/SWExLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wyx96553@163.com' => 'wyx96553@163.com' }

@@ -4,7 +4,7 @@
   "summary": "微信表情处理框架",
   "swift_version": "4.2",
   "description": "富文本表情处理框架",
-  "homepage": "https://gitee.com/momo96553",
+  "homepage": "https://gitee.com/momo96553/SWExLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
